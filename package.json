@@ -1,0 +1,17 @@
+{
+  "name": "my-discord-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot for paper trading",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "register": "node registerCommands.js"
+  },
+  "dependencies": {
+    "@discordjs/builders": "^1.8.2",
+    "@discordjs/rest": "^1.0.1",
+    "discord-api-types": "^0.37.17",
+    "discord.js": "^14.15.3",
+    "dotenv": "^10.0.0"
+  }
+}
